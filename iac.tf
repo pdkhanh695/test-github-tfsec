@@ -23,5 +23,4 @@ resource "aws_vpc" "test" {
   depends_on = [
     aws_vpc_ipam_pool_cidr.test
   ]
-  
 }
